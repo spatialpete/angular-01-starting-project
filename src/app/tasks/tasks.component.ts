@@ -8,13 +8,6 @@ import { Component, Input, Output } from '@angular/core';
   styleUrl: './tasks.component.css'
 })
 export class TasksComponent {
-  @Input({required:true}) name!: string;
-
-  // @Output() select = new EventEmitter<string>();
-  
-  // onSelectUser() {
-  //   DUMMY_USERS.find(user => user.id === selectedUserId)!;
-  //  }
-
+  @Input() name?: string;
 }
 
