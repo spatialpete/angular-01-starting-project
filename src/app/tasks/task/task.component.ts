@@ -18,7 +18,5 @@ export class TaskComponent {
     this.complete.emit(this.task.id);
   };
 
-  onAddTask() {
-    this.addTask.emit("hello world")
-  }
+
 }
