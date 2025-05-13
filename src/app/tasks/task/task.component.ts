@@ -3,6 +3,7 @@ import { DatePipe } from '@angular/common';
 
 import { Task } from './task.model'
 import { CardComponent } from "../../shared/card/card.component";
+import { TasksService } from '../tasks.service';
 
 @Component({
   selector: 'app-task',
